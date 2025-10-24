@@ -3,3 +3,6 @@ gradio==4.44.1
 torch==2.2.1
 transformers==4.38.2
 python-dotenv==1.0.0
+gtts
+fpdf
+requests
