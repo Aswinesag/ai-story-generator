@@ -1,3 +1,20 @@
 
 /venv
 .env
+# Ignore virtual environment folders
+venv/
+__pycache__/
+
+# Ignore environment variables
+.env
+
+# Ignore saved/generated files
+stories/
+outputs/
+*.mp3
+*.pdf
+*.png
+*.jpg
+
+# VSCode settings
+.vscode/
