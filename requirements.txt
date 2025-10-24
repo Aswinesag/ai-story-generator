@@ -1,7 +1,7 @@
 huggingface_hub==0.25.2
 gradio==4.44.1
 python-dotenv==1.0.0
-gtts
-fpdf
-requests
-pydub
+gtts==2.3.2
+fpdf==1.7.2
+requests==2.31.0
+pydub==0.25.1
