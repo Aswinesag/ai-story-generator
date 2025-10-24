@@ -493,5 +493,16 @@ def create_demo():
         return demo
 
 if __name__ == "__main__":
+    import os
+
+    # Create the Gradio demo
     demo = create_demo()
-    demo.queue().launch(server_port=7860, share=False)
+
+    # Render provides a dynamic port; use 7860 as fallback for local runs
+    port = int(os.environ.get("PORT", 7860))
+
+    demo.queue().launch(
+        server_name="0.0.0.0",
+        server_port=port,
+        share=False
+    )
