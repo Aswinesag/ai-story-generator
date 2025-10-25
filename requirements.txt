@@ -5,4 +5,4 @@ gtts
 fpdf
 requests
 pydub
-pyaudioop
+audioloop
