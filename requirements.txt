@@ -5,3 +5,5 @@ gtts==2.3.2
 fpdf==1.7.2
 requests==2.31.0
 pydub==0.25.1
+audioloop==0.3.2
+pyaudioop==0.1.0
